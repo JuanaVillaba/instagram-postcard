@@ -9,13 +9,67 @@ body{
     width: 40%;
     margin-left: auto ;
     margin-right: auto ;
+    margin-bottom: 3%;
+}
+.header-card b {
+    font-size: 110%;
+}
+.header-card i{
+    font-style: normal;
+    color: grey;
 }
 div.header-card{
     padding: 20px;
 }
+
 div.image img{
     width: 100%;
 }
 div.content-card{
     padding: 20px;
+    
+}
+
+.iconos {
+    font-size: 120%;
+    
+}
+.guardar{
+    position: relative;
+    left: 71%;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content-usuario, .header-card{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    
+}
+.content-card .texto
+{
+    margin-top: 2%;
+
+}
+.container_nav_ig{
+    margin-left: 2%;
+
+}
+.botones{
+    color: black;
+}
+
+.interaction-icons i { font-size: 1.5rem; cursor: pointer; transition: 0.2s; }
+
+.imagenes_fotos{
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
 }
